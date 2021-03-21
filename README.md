@@ -10,3 +10,9 @@ Through our website, we give a common platform to the students, Parents, teacher
 Final products: 1. AR App and notebook 2.Web based app
 
 Future scope: We will develop this mobile app further. We will implement drone based AR education and send drones to the places where refugee children, underprivileged children will get education using AR drones which will at one time, teach and entertain a lot of people together in an area using AR. This type of education can also be given as industrial trainings.
+
+
+We have our feed back and contact form as well......would love to get ur feedback....
+
+<img width="960" alt="2021-03-21 (36)" src="https://user-images.githubusercontent.com/75447439/111894721-15e18b00-8a33-11eb-9781-31df55e1e863.png">
+<img width="960" alt="2021-03-21 (37)" src="https://user-images.githubusercontent.com/75447439/111894722-19751200-8a33-11eb-8979-9516780dcfb7.png">
