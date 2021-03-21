@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <title>EduVision</title>
   
   <style type="text/css">
@@ -42,10 +44,14 @@
     nav ul {
       display: flex;
       flex-wrap: wrap;
-      list-style: none;
+      list-style: none; 
+      /* float: right;
+      margin-right: 20px; */
     }
 
     nav ul li {
+      display: inline-block;
+      line-height: 80px;
       margin: 0 5px;
     }
 
@@ -57,13 +63,14 @@
       padding: 8px 15px;
       border-radius: 5px;
       letter-spacing: 1px;
-      transition: all 0.3s ease;
+      /* transition: all 0.3s ease; */
     }
 
     nav ul li a.active,
     nav ul li a:hover {
       color: #111;
       background: #fff;
+      /* transition: .5s; */
     }
 
     nav .menu-btn i {
@@ -84,6 +91,12 @@
     }
 
     @media (max-width: 920px) {
+      nav .logo {
+      color: #fff;
+      font-size: 22px;
+      font-weight: 600;
+      margin-left: 15px;
+    }
       nav .menu-btn i {
         display: block;
       }
@@ -93,15 +106,15 @@
       }
 
       nav ul {
-        position: fixed;
+        position:relative;
         top: 80px;
         left: -100%;
         background: #111;
         height: 100vh;
         width: 100%;
         text-align: center;
-        display: block;
-        transition: all 0.3s ease;
+        display: block; 
+        /* transition: all 0.5s; */
       }
 
       #click:checked~ul {
@@ -110,7 +123,11 @@
 
       nav ul li {
         width: 100%;
-        margin: 40px 0;
+        margin: 40px 0; 
+        /* display: block;
+        margin: 50px 0;
+        line-height: 30px; */
+
       }
 
       nav ul li a {
@@ -118,17 +135,18 @@
         margin-left: -100%;
         display: block;
         font-size: 20px;
-        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        /* transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);  */
       }
 
-      #click:checked~ul li a {
-        margin-left: 0px;
-      }
 
-      nav ul li a.active,
+      /* nav ul li a.active,
       nav ul li a:hover {
         background: none;
         color: cyan;
+      }  */
+
+      #click:checked~ul li a {
+        margin-left: 0px;
       }
     }
 
@@ -252,7 +270,8 @@
         }
 
         .about-text p:nth-child(2) {
-            color: black font-family: "Andika New Basic", sans-serif;
+            color: black; 
+            font-family: "Andika New Basic", sans-serif;
             font-size: 17px;
 
             left: 40%;
@@ -393,7 +412,7 @@
 
 
 
-}
+
 
 
 
@@ -539,9 +558,13 @@
       <div class="col social">
           <h1>Social</h1>
           <ul>
-              <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
+              <!-- <li><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></li>
               <li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
-              <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
+              <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li> -->
+              <li><a href="#"><i class="fab fa-twitter fa-3x"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram fa-3x"></i></a></li>
+              <li><a href="#"><i class="fab fa-github fa-3x"></i></a></li>
+
           </ul>
       </div>
       <div class="clearfix"></div>
